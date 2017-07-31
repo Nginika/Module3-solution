@@ -30,8 +30,9 @@ hr
     color: #eee;
     height: 1px;
 }
+#baton {margin-right: 10px;}
 
-
+*{box-sizing: border-box;}
 .container {
 	background-color: #808B96;
 
@@ -51,20 +52,8 @@ hr
 	background-color: white;
 	
 }
-/**** MEDIA QUERIES***/
-/****MEDIUM DEVICES***/
-@media (min-width: 992px) {
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 1px solid black;
 
-}
-/****SMALL DEVICES ***/
-@media (min-width: 768px) and (max-width: 991px){
 
-}
-/***EXTRA SMALL DEVICES****/
-@media (max-width: 767px){
-#chicken{
-	margin-left: 20px;
-	margin-right: 20px;
 
-}
-}
